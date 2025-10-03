@@ -1,3 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body { 
+    /* max-width: 100%; */
+    font-family: sans-serif;
+    background: rgb(68, 4, 68);
+}
+
+.section3 {
+    width: 100%;
+}
+
+.newTeam {
+    margin: 5px;
+    
+}
+
+.emailLink {
+    margin-bottom: 15px; 
+    margin-top: auto;
+    line-height: 1.5;
+}
+
+.emailLinkQ {
+    color: white;
+}
+
+.emailLink a {
+    text-decoration: none;
+}
+
+.container3 {
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    width: 90%;
+    max-width: 90%;
+    overflow: visible;
+    height: auto;
+    margin: 10px auto;
+}
+
+.container3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    z-index: 2;
+    margin-bottom: -40px;
+    margin-left: -10px;
+}
+
+.container3Image {
+    max-width: 100%;
+}
+
+.newWorkspace {
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    margin: 15px auto;
+    color: purple;
+    font-size:x-small;
+    width: 90%;
+    display: block;
+}
+
+@media screen and (min-width: 800px){
+    .container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 65%;
+    max-width: 90%;
+    overflow: visible;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.container3Image {
+    order: -1;
+    margin-top: -10px;
+    /* display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start; */
+}
+
+.container3Image img {
+    height: 100%;
+    object-fit: contain;
+    width: auto;
+    /* display: block; */
+
+}
+
+.newWorkspace {
+    border-radius: 3px;
+    padding: 8px auto;;
+    white-space: nowrap;
+    margin: 5px auto;
+    
+    width: 30%;
+    
+    display: inline-block;
+    overflow-x: nowrap;
+}
+
+.emailLink {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.emailLink a {
+    color: lightblue;
+}
+
 body {
   background-color: #4a154b;
 
@@ -177,12 +301,6 @@ body {
   height: 12px;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: #57004D;
 }
@@ -207,7 +325,6 @@ body {
 }
 
 .workspace-title-holder p {
-    /* font-weight: 300; */
     font-size: 1.125rem;
     padding: 1rem;
 }
