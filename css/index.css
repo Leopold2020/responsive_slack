@@ -122,6 +122,8 @@
     color: lightblue;
 }
 
+}
+
 body {
   background-color: #4a154b;
 
@@ -301,14 +303,10 @@ body {
   height: 12px;
 }
 
-body {
-    background-color: #57004D;
-}
-
 .workspace-box {
     background-color: #FAFAFA;
-    border: 3px solid #7E3E73;
-    border-radius: 14px;
+    border: 3px solid #7e3e73;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -319,8 +317,8 @@ body {
 .workspace-title-holder {
     background-color: #F1D9EC;
     padding: 4px;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     width: 100%;
 }
 
@@ -424,7 +422,7 @@ body {
 
 @media (min-width: 800px) {
     .workspace-box {
-        width: 60%;
+        width: 65%;
     }
     
     .workspace-content-holder {
