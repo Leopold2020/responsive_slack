@@ -176,3 +176,150 @@ body {
   width: 12px;
   height: 12px;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #57004D;
+}
+
+.workspace-box {
+    background-color: #FAFAFA;
+    border: 3px solid #7E3E73;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.workspace-title-holder {
+    background-color: #F1D9EC;
+    padding: 4px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    width: 100%;
+}
+
+.workspace-title-holder p {
+    /* font-weight: 300; */
+    font-size: 1.125rem;
+    padding: 1rem;
+}
+
+.workspace-content-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0.5rem auto;
+}
+
+.workspace-content {
+    display: flex;
+    flex-direction: row;
+    margin: 4px 0 10px 0;
+    width: 100%;
+}
+
+.emblem-img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.workspace-info {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.workspace-info h2 {
+    font-size: 18px;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+}
+
+.members h3 {
+    font-size: 10px;
+}
+
+.members-holder {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 1px 3px 0 1px;
+    display: unset;
+}
+
+.members-holder img {
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    border: 1px solid white;
+}
+
+.slighty-to-the-left{
+    margin-left: -7px;
+}
+
+.launch-button {
+    background-color: #700069;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+
+.see-additional-container {
+    margin: 1.5rem;
+}
+
+.see-additional {
+    color: #005DA2;
+    display: flex;
+    font-size: 14px;
+}
+
+.point-down {
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+@media (min-width: 800px) {
+    .workspace-box {
+        width: 60%;
+    }
+    
+    .workspace-content-holder {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .launch-button {
+        width: 20%;
+    }
+
+    .workspace-content {
+        width: 70%;
+    }
+}
