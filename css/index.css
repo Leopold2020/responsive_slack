@@ -112,6 +112,12 @@
     overflow-x: nowrap;
 }
 
+.emailLink {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
 .emailLink a {
     color: lightblue;
 }
